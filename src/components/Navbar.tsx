@@ -56,7 +56,7 @@ export default function Navbar() {
             href="/"
             className="text-2xl font-bold tracking-tight hover:text-blue-500 transition-colors"
           >
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text  text-transparent">
               Arju Hasan
             </span>
           </Link>
@@ -149,7 +149,7 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
-              <div className="pt-2 flex items-center space-x-3">
+              <div className="pt-3 flex items-center space-x-3">
                 <ThemeToggle />
                 <a
                   href="https://github.com/arju-Hasan"
