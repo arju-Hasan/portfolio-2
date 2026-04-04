@@ -38,13 +38,14 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
-        <link
-          rel="icon"
-          href="https://i.ibb.co/Nd5JfX8W/d45932f4-5444-488d-a87b-fd81700f28456c.png"
-          type="image/png"
-        />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/logo.png" type="image/png" />
+        <meta name="theme-color" content="#000000" />
         <style>{`
-          link[rel="icon"] {
+          link[rel="icon"],
+          link[rel="apple-touch-icon"],
+          link[rel="shortcut icon"] {
             border-radius: 50%;
           }
         `}</style>
