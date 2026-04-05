@@ -21,9 +21,7 @@ export default function Footer() {
 
       <div className="container relative z-10 mx-auto flex flex-col items-center justify-center px-6 text-center">
         <h2 className="mb-2 text-4xl font-bold tracking-tight md:text-6xl">
-          <span className="text-gray-600 dark:text-gray-400">
-            Let&apos;s
-          </span>{" "}
+          <span className="text-gray-600 dark:text-gray-400">Let&apos;s</span>{" "}
           <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(59,130,246,0.35)] dark:from-blue-400 dark:to-blue-500">
             Connect
           </span>
