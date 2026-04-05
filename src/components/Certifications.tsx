@@ -41,7 +41,7 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="mx-auto max-w-6xl bg-gray-950/20 px-4 py-20"
+      className="mx-auto max-w-6xl bg-gray-950/20 px-4 pb-10"
     >
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
@@ -86,7 +86,7 @@ export default function Certifications() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative h-50 w-full cursor-pointer overflow-hidden rounded-xl border border-gray-800 bg-gray-900/60 transition-all hover:border-purple-500/50"
+              className="group relative h-60 w-full cursor-pointer overflow-hidden rounded-xl border border-gray-800 bg-gray-900/60 transition-all hover:border-purple-500/50"
               onClick={() => window.open(cert.link, "_blank")}
             >
               {/* Certificate Image */}
